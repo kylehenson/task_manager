@@ -1,6 +1,17 @@
+<style>
+p{
+  font-family: fantasy;
+  color:       gold;
+  font-size: 250%;
+}
+body{
+  background-color: aqua;
+  text-align:       center;
+}
+</style>
 <form action="/tasks" method="post">
   <p>Enter a new task:</p>
-  <input type='text' name='task[title]'/><br/>
-  <textarea name='task[description]'></textarea><br/>
+  <input type='text' name='task[title]' style="width: 300px;"/><br/>
+  <textarea name='task[description]' style="width: 225px;"></textarea><br/>
   <input type='submit'/>
 </form>
