@@ -1,9 +1,6 @@
 ---
 tasks:
-- id: 1
-  title: asdf
-  description: asdfghjkl
-- id: 2
-  title: cookies
-  description: buy cookies
-total: 2
+- id: 3
+  title: Setup Office
+  description: put together chair and empty boxes
+total: 3
