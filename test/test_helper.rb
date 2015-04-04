@@ -4,6 +4,7 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'capybara'
+# require 'database_cleaner'
 
 
 class Minitest::Test
@@ -17,3 +18,15 @@ Capybara.app = TaskManagerApp
 class FeatureTest < Minitest::Test
   include Capybara::DSL
 end
+
+# DatabaseCleaner.strategy = :transaction
+#
+# class MiniTest::Test
+#   def setup
+#     DatabaseCleaner.start
+#   end
+#
+#   def teardown
+#     DatabaseCleaner.clean
+#   end
+# end
